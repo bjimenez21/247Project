@@ -5,7 +5,7 @@
 .header{
   display: inline-block;
   width: 400px;
-  height: 60px;
+  height: 125px;
   padding-left: 400px;
   margin:0;
   border: 3px solid red;
@@ -13,8 +13,8 @@
 }
 .header2{
   display: inline-block;
-  width: 73px;
-  height: 70px;
+  width: 110px;
+  height: 125px;
   float: right;
   margin:0;
   padding: 0;
@@ -27,7 +27,7 @@
 #editbutton{
   height: 23px;
   border-radius: 5px;
-  width: 90px;
+  width: 105px;
   border: 2px solid lightblue;
   background-color: #A0AEC3;
   font-family: sans-serif;
@@ -204,7 +204,7 @@ img {vertical-align: middle;}
 </div>
 <div class="mySlides fade">
   <div class="numbertext">3 / 4</div>
-  <img src="img/mountains_wide.jpg" style="width:100%">
+  <img src="img_mountains_wide.jpg" style="width:100%">
   <div class="text">Caption Three</div>
 </div>
 
