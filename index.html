@@ -9,7 +9,6 @@
   padding-left: 400px;
   margin:0;
   border: 3px solid red;
-  visibility: visible;
 }
 .header2{
   display: inline-block;
@@ -27,7 +26,7 @@
 #editbutton{
   height: 23px;
   border-radius: 5px;
-  width: 90px;
+  width: 105px;
   border: 2px solid lightblue;
   background-color: #A0AEC3;
   font-family: sans-serif;
@@ -39,7 +38,7 @@ background-color: black;
 color: #A0AEC3;
 }
 #homepage{
-  height: 558px;
+  height: 627px;
   background-color: #DBE8F9;
 }
 #bottomarea{
@@ -102,40 +101,18 @@ img {vertical-align: middle;}
 
 /* Caption text */
 .text {
-  color: #f2f2f2;
+  color: #FFB739;
   font-size: 15px;
-  padding: 8px 12px;
+  width: 75%;
+  margin-left: -150px;
+  margin-top: -100px;
+  /*border: 2px solid orange; JUST IN CASE I LOOSE IT.*/
   position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
 }
-
-/* Number text (1/4 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
+div.first {
+    background: rgba(160, 174, 195, 0.4);
+    height: 55px;
 }
-
-/* The dots/bullets/indicators */
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
-.active, .dot:hover {
-  background-color: #717171;
-}
-
 /* Fading animation */
 .fade {
   -webkit-animation-duration: 1.5s;
@@ -169,7 +146,7 @@ img {vertical-align: middle;}
   <img class="header2" src="img/ligue1.png">
   <img class="header2" src="img/bundesliga.png">
   <img class="header2" src="img/premierleaguelogo.png">
-  <div class="designb">
+<div class="designb">
 <h2>
 <button onclick="myFunction1()" id="editbutton">About</button>
 <button onclick="myFunction2()" id="editbutton">World Cup</button>
@@ -177,7 +154,7 @@ img {vertical-align: middle;}
 <button onclick="myFunction4()" id="editbutton">Transfers</button>
 <button onclick="myFunction5()" id="editbutton">Clubs</button>
 </h2>
-<h3><div id="homepage"> SlideShow HERE
+<h3><div id="homepage">
 </div></h3>
 <h4><div id="bottomarea">
   <p class="leftcorner">Created at Phillips Academy</p>
@@ -187,25 +164,21 @@ img {vertical-align: middle;}
   <div class="slideshow-container">
 
 <div class="mySlides fade">
-  <div class="numbertext">1 / 4</div>
-  <img src="https://78.media.tumblr.com/6b9269633e2bbc555222b0e0edfba55a/tumblr_ogmoqkFisq1tlc6guo1_1280.jpg" style="width:100%">
-  <div class="text">Caption Text</div>
+  <img src="https://attachment.outlook.office.net/owa/emateo21@andover.edu/service.svc/s/GetFileAttachment?id=AAMkAGVjNWYwZGNlLWYzYWYtNGFlYy1hMzFlLTQwMTc2MjEzNzkwMQBGAAAAAAD%2BEnCsYR1RRJ6UVukeLWikBwAmOOdW5FAcR45OltxS5H8DAAAAAAEMAAAmOOdW5FAcR45OltxS5H8DAAA38dKxAAABEgAQAJZTvonAUpJAkbZb%2BYt0Log%3D&X-OWA-CANARY=voa0RinkV0aVqx_a8qguGSA7kezG8dUYu4MijkhuGoRt16OGP717p_m-T3nKFjiPo5DQF_M42JY.&token=eyJhbGciOiJSUzI1NiIsImtpZCI6IjA2MDBGOUY2NzQ2MjA3MzdFNzM0MDRFMjg3QzQ1QTgxOENCN0NFQjgiLCJ4NXQiOiJCZ0Q1OW5SaUJ6Zm5OQVRpaDhSYWdZeTN6cmciLCJ0eXAiOiJKV1QifQ.eyJ2ZXIiOiJFeGNoYW5nZS5DYWxsYmFjay5WMSIsImFwcGN0eHNlbmRlciI6Ik93YURvd25sb2FkQDhhNjVlYmQ5LTdiZTgtNDQ3Ny1iNTQ1LTliNmRmODFhZDJhMyIsImFwcGN0eCI6IntcIm1zZXhjaHByb3RcIjpcIm93YVwiLFwicHJpbWFyeXNpZFwiOlwiUy0xLTUtMjEtMzY3MzI4NDY0Mi0xMjgzNzA4NzEwLTEzNTQ2NjQxNjEtMTg1Mzg1MjRcIixcInB1aWRcIjpcIjExNTM3NjU5MzI0MDAxMzc1NjZcIixcIm9pZFwiOlwiNWIyNzE2MjEtN2Q2OC00NDQ1LWJiOGYtOTIzYjgxNTUzN2IzXCIsXCJzY29wZVwiOlwiT3dhRG93bmxvYWRcIn0iLCJuYmYiOjE1MzI0NzkwNTgsImV4cCI6MTUzMjQ3OTY1OCwiaXNzIjoiMDAwMDAwMDItMDAwMC0wZmYxLWNlMDAtMDAwMDAwMDAwMDAwQDhhNjVlYmQ5LTdiZTgtNDQ3Ny1iNTQ1LTliNmRmODFhZDJhMyIsImF1ZCI6IjAwMDAwMDAyLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMC9hdHRhY2htZW50Lm91dGxvb2sub2ZmaWNlLm5ldEA4YTY1ZWJkOS03YmU4LTQ0NzctYjU0NS05YjZkZjgxYWQyYTMifQ.LzBK-SWy0Tay1hsGeGCrQLubLmPnSm9dagPaa0Oa8U42AeCujSpGn9YYOrQ0xxFbuMgD8HIpvZtBmi55Q5O2Fs46yJ_LSB_bZ3d-AVZHIjASDcX-sx6KjbNQVGYw9ETJbwutWVrlRkCyBrBJDdelUb07jWbW8kLq6Np4WSYNjIVy5feIUI1EDqiEb03jygJHlcuFBJJDMvslS9PEy0An0MxfrXT4kpib0o5Gw55AoLAccZkJ5HflxbYXQSJvoMa1yxT_d77DUK5TkLW_Z137Wngh8M8rGriYJQ4mU9pG49r2Ic-5lfIOOPji9_35O0wf2NqubegQG9EuJXfi4zUIxg&owa=outlook.office.com&isImagePreview=True" style="width:150%; border: 4px solid #FA6121; height:450px; margin-left:-150px;margin-top: -80px;">
+  <div class="text"<p> <div class="first">France  advances  to  the  World  Cup  Final  after  a  1-0  win  over  Belgium!</div></p></div>
 </div>
 
 <div class="mySlides fade">
-  <div class="numbertext">2 / 4</div>
-  <img src="http://images.sportbuzzer.de/v1/photos/raw/moscow-russia-july-11-mario-mandzukic-of-croatia-celebrates-with-teammates-after/regular-16-9" style="width:100%">
-  <div class="text">Caption Two</div>
+  <img src="img/Croats.jpeg" style="width:150%; border: 4px solid #FA6121; height:450px; margin-left:-150px;margin-top: -80px;">
+  <div class="text">Caption Text</div>
 </div>
 <div class="mySlides fade">
-  <div class="numbertext">2 / 3</div>
-  <img src="https://cdn-images-1.medium.com/max/1600/0*QUqE4WGF8_cC9bIl.jpg" style="width:100%">
-  <div class="text">Caption Two</div>
+  <img src="https://steemitimages.com/0x0/https://newspig.co.uk/wp-content/uploads/2018/07/cristiano-ronaldo-to-juventus-real-madrid-confirm-transfer-in-105m-agreement.jpg" style="width:150%; border: 4px solid #FA6121; height:450px; margin-left:-150px;margin-top: -80px;">
+  <div class="text">Caption Text</div>
 </div>
 <div class="mySlides fade">
-  <div class="numbertext">3 / 4</div>
-  <img src="img/mountains_wide.jpg" style="width:100%">
-  <div class="text">Caption Three</div>
+  <img src="http://www.7msport.com/photo/upload/20180716/092556dvvco0zs1j1531704356489988.jpg" style="width:150%; border: 4px solid #FA6121; height:450px; margin-left:-150px;margin-top: -80px;">
+  <div class="text">Caption Text</div>
 </div>
 
 <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
