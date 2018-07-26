@@ -5,10 +5,11 @@
 .header{
   display: inline-block;
   width: 400px;
-  height: 60px;
-  padding-left: 400px;
+  height: 75px;
   margin:0;
-  border: 3px solid red;
+  /*border: 3px solid red; JUST IN CASE YOU LOSE HEADER AND NEED TO FIND IT*/
+  position: sticky;
+  margin-left: 500px;
 }
 .header2{
   display: inline-block;
@@ -140,12 +141,12 @@ div.first {
 <title>24/7 Project</title>
 </head>
 <body class="body">
-<img class="header" src="img/WebsiteLogo.png">
-  <img class="header2" src="img/russiaworldcup.jpg">
-  <img class="header2" src="img/seriea.png">
-  <img class="header2" src="img/ligue1.png">
-  <img class="header2" src="img/bundesliga.png">
-  <img class="header2" src="img/premierleaguelogo.png">
+  <img class="header" src="img/WebsiteLogo.png">
+    <img class="header2" src="img/russiaworldcup.jpg">
+    <img class="header2" src="img/seriea.png">
+    <img class="header2" src="img/ligue1.png">
+    <img class="header2" src="img/bundesliga.png">
+    <img class="header2" src="img/premierleaguelogo.png">
 <div class="designb">
 <h2>
 <button onclick="myFunction1()" id="editbutton">About</button>
@@ -159,13 +160,14 @@ div.first {
 <h4><div id="bottomarea">
   <p class="leftcorner">Created at Phillips Academy</p>
 </div></h4>
+<div> <img src="img/FranceEmblem.jpg" style="width: 10%; margin-top: -700px; border: 3px solid red; position:absolute;"> </div>
 
 <div class="recenter">
   <div class="slideshow-container">
 
 <div class="mySlides fade">
   <img src="img/FranceMovesToFinal.jpg" style="width:150%; border: 4px solid #FA6121; height:450px; margin-left:-150px;margin-top: -80px;">
-  <img src="img/FranceEmblem.jpg" style="width: 25%; border: 4px solid red; margin-top: -840px;">
+
   <div class="text"<p> <div class="first">France  advances  to  the  World  Cup  Final  after  a  1-0  win  over  Belgium!</div></p></div>
 </div>
 
@@ -224,6 +226,5 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 }
 </script>
-
 </body>
 </html>
