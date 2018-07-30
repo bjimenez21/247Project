@@ -45,6 +45,7 @@ color: lightblue;
 #homepage{
   height: 627px;
   background-color: #DBE8F9;
+  display: flex;
 }
 #bottomarea{
   background-color: #466289;
@@ -66,10 +67,20 @@ color: lightblue;
   font-family: serif;
   /*dislpay inline-block* CHECK IT OUT*/
 }
-.GroupStage img{
-height:150px;
-width:200px;
-padding:15px;
+.players p{
+  margin-bottom: 0;
+  margin-top: 20px;
+text-align: justify;
+font-size: 30px;
+font-family: monospace;
+line-height: 1.3;
+padding-left: 20px;
+}
+.teams img{
+  width: 20%;
+  height: 95px;
+  margin-top: 20px;
+  border-radius: 10px;
 }
   </style>
 <title>24/7 Project</title>
@@ -81,7 +92,6 @@ padding:15px;
     <img class="header2" src="img/ligue1.png">
     <img class="header2" src="img/bundesliga.png">
     <img class="header2" src="img/premierleaguelogo.png">
-    <br>
 <div class="designb">
   <br>
   <button onclick="myFunction1()" id="editbutton"><a href="about.html">About</a></button>
@@ -89,23 +99,35 @@ padding:15px;
   <button onclick="myFunction3()" id="editbutton"><a href="news.html">News</a></button>
   <button onclick="myFunction4()" id="editbutton"><a href="transfers.html">Transfers</button>
   <button onclick="myFunction5()" id="editbutton"><a href="clubs.html">Clubs</a></button>
+<h3><div id="homepage">
+    <div class="players">
+    <p>Latest Transfers:</p>
+  <p>Jorginho 50.4m euros Napoli>>>Chelsea</p>
   <br>
+  <p>William Carvalho 13.3m euros Sporting CP>>>>Real Betis</p>
   <br>
-<div id="homepage">
-    <img style="height:200px; width:350px;" src="img/A.png">
-    <img style="height:200px; width:350px;" src="img/B.png">
-    <img style="height:200px; width:350px;" src="img/C.png">
-    <img style="height:200px; width:350px;" src="img/D.png">
-    <img style="height:200px; width:350px;" src="img/E.png">
-    <img style="height:200px; width:350px;" src="img/F.png">
-    <img style="height:200px; width:350px;" src="img/G.png">
-    <img style="height:200px; width:350px;" src="img/H.png">
-</div>
-<br>
-<div id="bottomarea">
+  <p>Xherdan Shaqiri 13.5m euros Stoke City>>>Liverpool</p>
+  <br>
+  <p>Clement Lenglet 31m euros Sevilla>>>FC Barcelona</p>
+  <br>
+  <p>Maxime Le Marchand 7.5m euros OGC Nice>>>Fulham</p>
+  </div>
+  <div class="teams">
+  <img src="img/jorginho.jpg">
+  <br>
+  <img src="img/William.jpg">
+  <br>
+  <img src="img/XherdanShaqiri.jpeg">
+  <br>
+  <img src="img/Lenglet.jpg">
+  <br>
+  <img src="img/soleil.jpg">
+  </div>
+</div></h3>
+<h4><div id="bottomarea">
   <p class="leftcorner">Created at Phillips Academy</p>
-  
 <script>
+
 </script>
 </body>
 </html>

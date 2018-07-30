@@ -1,28 +1,162 @@
+<!DOCTYPE html>
 <html>
-<body>
-<style>
-.text {
- font-family: sans-serif;
- margin: 0 auto;
+<head>
+  <style>
+  a {
+    text-decoration: none;
+    color: black;
+  }
+.header{
+  display: inline-block;
+  width: 400px;
+  height: 75px;
+  margin:0;
+  /*border: 3px solid red; JUST IN CASE YOU LOSE HEADER AND NEED TO FIND IT*/
+  position: sticky;
+  margin-left: 500px;
 }
+.header2{
+  display: inline-block;
+  width: 73px;
+  height: 70px;
+  float: right;
+  margin:0;
+  padding: 0;
+}
+.designb{
+  text-align: center;
+  background-color: #466289;
+  height: 70px;
+}
+#editbutton{
+  height: 23px;
+  border-radius: 5px;
+  width: 105px;
+  border: 2px solid lightblue;
+  background-color: #A0AEC3;
+  font-family: sans-serif;
+  font-size: 15px;
+  cursor: pointer;
+}
+#editbutton:hover{
+background-color: orange;
+color: lightblue;
+}
+#homepage{
+  height: 2500px;
+  background-color: #DBE8F9;
+  display: flex;
+}
+#bottomarea{
+  background-color: #466289;
+  height: 70px;
+  margin-top: -20px;
+}
+.body{
+  margin: 0;
+  padding: 0;
+}
+.leftcorner{
+  float: left;
+  color: #FA6121;
+  /*border: 2px solid black;*/
+  width:80px;
+  height: 50px;
+  align-content: center;
+  font-size: 14px;
+  font-family: serif;
+  /*dislpay inline-block* CHECK IT OUT*/
+}
+#text{
+  margin-top: -500px;
+  line-height: 1.8;
+text-align: justify;
+padding-left: 150px;
+padding-right: 150px;
+font-family: sans-serif;
+}
+.text {
+  font-family: sans-serif;
+  margin: 0 auto;
+  line-height: 1.5;
+}
+#club{
+height:100px;
+width:75px;
+}
+#container img{
+position:relative;
+margin-top: -700px;
+}
+.leagues{
+  line-height: 1.6;
+  text-align: justify;
+  margin-left: 100px;
+}
+.all{
+  margin-top: -2150px;
+}
+.teams{
+  border: 3px solid green;
+  width: 300px;
+}
+  </style>
+<title>24/7 Project</title>
+</head>
+<body class="body">
+  <img class="header" src="img/WebsiteLogo.png">
+    <img class="header2" src="img/russiaworldcup.jpg">
+    <img class="header2" src="img/seriea.png">
+    <img class="header2" src="img/ligue1.png">
+    <img class="header2" src="img/bundesliga.png">
+    <img class="header2" src="img/premierleaguelogo.png">
+<div class="designb">
+<br>
+<button onclick="myFunction1()" id="editbutton"><a href="about.html">About</a></button>
+<button onclick="myFunction2()" id="editbutton"><a href="worldcup.html">World Cup</a></button>
+<button onclick="myFunction3()" id="editbutton"><a href="news.html">News</a></button>
+<button onclick="myFunction4()" id="editbutton"><a href="transfers.html">Transfers</button>
+<button onclick="myFunction5()" id="editbutton"><a href="clubs.html">Clubs</a></button>
+<h3><div id="homepage">
+</div></h3>
+<h4><div id="bottomarea">
+  <p class="leftcorner">Created at Phillips Academy</p>
+</div></h4>
+<div class="all">
+<div id="container">
+  <img src="img/Article1Left.jpg" style="width: 400px; height:400px; border-radius: 10px;">
+  <img src="img/Article1Right.jpg" style="width: 400px; height: 400px; border-radius: 10px;">
+  <img src="img/Article1Middle.jpg" style="width: 400px; height: 400px; border-radius: 10px;">
+</div>
+<h2 class="text">France advances to World Cup final! </h2>
 
-</style>
-<h2 class="text">France advances to World Cup final. </h2>
-<p class="text">France  and  Belgium  faced  off  in  the  first  game  of  the  World  Cup  Semifinals  and  France  were  the  victors,  winning  1-0.  Samuel  Umtiti,  the  FC  Barcelona  defender,  headed  home  the  winning  goal for  Les  Bleus  early  in  the  second  half.  Belgium,  led  by  Eden  Hazard  and  Romelu  Lukaku,  couldn’t  find  the  back  of  the  net  and  will  be  disappointed  to  not  deliver  a  first  World  Cup  Final  to  their  home  nation. France,  on  the  20  year  anniversary  of  their  1998  World  Cup  Title,  will  advance  to  play  Croatia  on  Sunday  for  a  chanceat  world  domination.  Les  Bleus  are  looking  strong  headed  into  their  final  match  and  are hoping  for  the  likes  of  Antoine  Griezmann  and  Kylian  Mbappe  to  lead  them  to  victory.  On  the  other  hand,  Belgium  will  have  to  settle  for  the  3rd  place  match  against  England  on  Saturday.  Here  in  Andover,  a crowd  gathered  to  watch  the  match  in  Paresky  Commons.  Many  French  fans  were  in  attendanceand  were  delighted  to  see  their  nation  win.
+<p class="text" style="text-align: justify; padding-left: 100px; padding-right: 100px;">France  and  Belgium  faced  off  in  the  first  game  of  the  World  Cup  Semifinals  and  France  were  the  victors,  winning  1-0.  Samuel  Umtiti,  the  FC  Barcelona  defender,  headed  home  the  winning  goal  for  Les  Bleus  early  in  the  second  half.  Belgium,  led  by  Eden  Hazard  and  Romelu  Lukaku,  couldn’t  find  the  back  of  the  net  and  will  be  disappointed  to  not  deliver  a  first  World  Cup  Final  to  their  home  nation.  France,  on  the  20  year  anniversary  of  their  1998  World  Cup  Title,  will  advance  to  play  Croatia  on  Sunday  for  a  chanceat  world  domination.  Les  Bleus  are  looking  strong  headed  into  their  final  match  and  are  hoping  for  the  likes  of  Antoine  Griezmann  and  Kylian  Mbappe  to  lead  them  to  victory.  On  the  other  hand,  Belgium  will  have  to  settle  for  the  3rd  place  match  against  England  on  Saturday.  Here  in  Andover,  a  crowd  gathered  to  watch  the  match  in  Paresky  Commons.  Many  French  fans  were  in  attendanceand  were  delighted  to  see  their  nation  win.
 </p>
-</body>
+<img src="img/Article2Left.jpg" style="width: 400px; height:400px; border-radius: 10px;">
+<img src="img/Article2Right.jpg" style="width: 400px; height:400px; border-radius: 10px;">
 <h2 class="text">Croatia  Beats  England  2-1  in  World  Cup  Semifinal</h2>
-<p class="text">In  an  intense  battle  between  2  teams  that  weren’t  supposed  to  make  the  Semifinal,  Croatia  prevailed  2-1  over  England.  England  got  the  scoring  started  early,  in  the  5th  minute,  off  of  a  beautiful free  kick  from  Right  Back  Kieran  Trippier.  The  early  goal  had  British  fans  thinking  it  really  was  coming  home.  However,  the  second  half  belonged  to  Croatia  and  Ivan  Perisic  netted  a  goal  in  the  68th  minute  to even  the  score  1-1.  Neither  team  could  catch  a  breakthrough  in  the  rest  of  regular  time  and  the  match  went  into  extra  time.  Mario  Mandzukic  became  a  hero  in  the  109th  minute  with  his  winning  goal. England’s  title  hopes  were  left  in  the  dust  and  they  will  have  to  settle  for  the  3rd  place  match  against  Belgium.  Croatia  did  a  great  job  of  stopping  Harry  Kane  and  will  look  forward  to  attempting  to  stop France’s  potent  attack.  Perisic,  the  Inter  Milan  midfielder,  took  home  Man  of  the  Match  honors  in  the  monumental  win  for  Croatia.  This  will  be  Croatia’s  first  ever  World  Cup  Final  and  it  willhappen  on  Sunday  at 2pm  on  Fox.
-</p>
-<h2 class="text">Cristiano Ronaldo joins Juve!</h2>
-<p class="text">Cristiano  Ronaldo  has  shocked  the  world  by  leaving  Real  Madrid  for  Italian  side  Juventus.  Juve  has  bought  CR7  for  a  105  million  euro  transfer  fee.  Realfans  from  around  the  world  are  sad  to see  this  legend  leave  the  club  and  no  replacement  has  been  found  to  date.  It  is  hard  to  replace  a  great  player  likeCR7  but  they  must  certainly  try.  It  is  rumored  that  Madrid  has  put  in  a  bid  for  Chelsea winger  Eden  Hazard.  On  Juventus’  side,  they  have  been  ostentaciously  putting  together  a  side  that  will  be  expected  to  capture  the  Champions  League  Title.  Juve’s  other  signings  include  RM  Douglas  Costa  and RB  Joao  Cancelo.  They  have  also  signed  CM  Emre  Can  from  Liverpool  on  a  free  transfer.  Thanks  to  this  splash  of  cash  on  Ronaldo,  Juve  will  need  to  sell  possibly  a  few  players  in  order  to  stay  on  the  good side  of  Fifa’s  Financial  Fair  Play  rules.  Striker  Gonzalo  Higuain  is  expected  to  be  sold  to  Prem  side  Chelsea  for  upwards  of  60  million  and  Alex  Sandro  is  rumored  to  leave  as  well.  Despite  the  need  to  sell  a few  players,  the  Turin  based  club  is  reportedly  chasing  the  transfer  of  Real  Madrid  LB  Marcelo  as  well.  Despite  these  claims,  it  will  be  a  serious  coup  if  they  can  pull  this  off  and  double  dip  into  Madrid’s starting  11.  That  move  could  however  make  sense  for  Real  as  they  would  get  younger  and  could  build  for  the  next  generation.
-</p>
-<h2 class="text">Latest Transfers:</h2>
-<h2 class="text">Jorginho 50.4m euros>>>Chelsea</h2>
-<h2 class="text">William Carvalho 13.3m euros Sporting CP>>>>Real Betis</h2>
-<h2 class="text">Xherdan Shaqiri 13.5m euros Stoke City>>>Liverpool</h2>
-<h2 class="text">Clement Lenglet 31m euros Sevilla>>>FC Barcelona</h2>
-<h2 class="text">Maxime Le Marchand 7.5m euros OGC Nice>>>Fulham</h2>
 
-<h2 class="text"> Welcome to 24/7 Football!</h2>
-<p class="text">This website is dedicated to bringing you the latest futbol news whether it be about the World Cup, Premier League, Bundesliga, Champions League, transfers, etc. Articles will be put up as soon as possible. Just remember, this was made as a summer project and is not a professional endeavor. Thank you for visiting the website and enjoy!</p>
+<p class="text" style="text-align: justify; padding-left: 100px; padding-right: 100px;">
+  In  an  intense  battle  between  2  teams  that  weren’t supposed  to  make  the  Semifinal,  Croatia  prevailed  2-1  over  England.  England  got  the  scoring  started  early,  in  the  5th  minute,  off  of  a  beautiful  free  kick  from  Right  Back  Kieran  Trippier.  The  early  goal  had  British  fans  thinking  it  really  was  coming  home.  However,  the  second  half  belonged  to  Croatia  and  Ivan  Perisic  netted  a  goal  in  the  68th  minute  to  even  the  score  1-1.  Neither  team  could  catch  a  breakthrough  in  the  rest  of  regular  time  and  the  match  went  into  extra  time.  Mario  Mandzukic  became  a  hero  in  the  109th  minute  with  his  winning  goal.  England’s  title  hopes  were  left  in  the  dust  and  they  will  have  to  settle  for  the  3rd  place  match  against  Belgium.  Croatia  did  a  great  job  of  stopping  Harry  Kane  and  will  look  forward  to  attempting  to  stop  France’s  potent  attack.  Perisic,  the  Inter  Milan  midfielder,  took  home  Man  of  the  Match  honors  in  the  monumental  win  for  Croatia.  This  will  be  Croatia’s  first  ever  World  Cup  Final  and  it  willhappen  on  Sunday  at  2pm  on  Fox.
+</p>
+<img src="img/Article3Left.jpg" style="width: 400px; height:400px;">
+<img src="img/Article3Middle.jpg" style="width: 400px; height:400px; border-radius: 10px;">
+<img src="img/Article3Right.jpg" style="width: 400px; height:400px; border-radius: 10px;">
+<h2 class="text">Cristiano Ronaldo joins Juve!</h2>
+
+<p class="text" style="text-align: justify; padding-left: 100px; padding-right: 100px;">
+  Cristiano  Ronaldo  has  shocked  the  world  by  leaving  Real  Madrid  for  Italian  side  Juventus.  Juve  has  bought  CR7  for  a  105  million  euro  transfer  fee.  Realfans  from  around  the  world  are  sad  to  see  this  legend  leave  the  club  and  no  replacement  has  been  found  to  date.  It  is  hard  to  replace  a  great  player  likeCR7  but  they  must  certainly  try.  It  is  rumored  that  Madrid  has  put  in  a  bid  for  Chelsea  winger  Eden  Hazard.  On  Juventus’  side,  they  have  been  ostentaciously  putting  together  a  side  that  will  be  expected  to  capture  the  Champions  League  Title.  Juve’s  other  signings  include  RM  Douglas  Costa  and  RB  Joao  Cancelo.  They  have  also  signed  CM  Emre  Can  from  Liverpool  on  a  free  transfer.  Thanks  to  this  splash  of  cash  on  Ronaldo,  Juve  will  need  to  sell  possibly  a  few  players  in  order  to  stay  on  the  good  side  of  Fifa’s  Financial  Fair  Play  rules.  Striker  Gonzalo  Higuain  is  expected  to  be  sold  to  Prem  side  Chelsea  for  upwards  of  60  million  and  Alex  Sandro  is  rumored  to  leave  as  well.  Despite  the  need  to  sell  a  few  players,  the  Turin  based  club  is  reportedly  chasing  the  transfer  of  Real  Madrid  LB  Marcelo  as  well.  Despite  these  claims,  it  will  be  a  serious  coup  if  they  can  pull  this  off  and  double  dip  into  Madrid’s  starting  11.  That  move  could  however  make  sense  for  Real  as  they  would  get  younger  and  could  build  for  the  next  generation.
+</p>
+<img src="img/Article4Left.jpg" style="width: 400px; height:400px; border-radius: 10px;">
+<img src="img/Article4Right.jpg" style="width: 400px; height:400px; border-radius: 10px;">
+  <h2 class="text">France Wins FIFA World Cup</h2>
+
+  <p class="text" style="text-align: justify; padding-left: 100px; padding-right: 100px;"> In a widely anticipated World Cup Final in Russia, France prevailed over Croatia 4-2 in an intense match. Mario Mandzukic scored an own goal in the 18’ minute to give France a 1-0 lead but Ivan Perisic soon pulled one back for the Croats. 10 minutes later, Antoine Griezmann scored a penalty kick after a hotly contested hand ball for a 2-1 French lead. After halftime, France scored two goals in quick succession thanks to Paul Pogba and Kylian Mbappe to make the scoreline 4-1. Croatia was forced to go into an all out attack and that did yield a goal after a Karius-esque mistake from French keeper Hugo Lloris. France then held on for the win and the european nation had their second ever World Cup win in the bag.
+</p>
+</div>
+</body>
+
+<script>
+</script>
+</body>
+</html>
